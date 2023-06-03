@@ -24,7 +24,7 @@ pip install gradio SpeechRecognition ttsmms deep_translator
 ```
 
 ## Step 3: Download language model
-check [here](https://github.com/wannaphong/ttsmms/blob/main/support_list.txt) for supported languages and  their iso code for the for this step.
+Check [here](https://github.com/wannaphong/ttsmms/blob/main/support_list.txt) for supported languages and  their iso code for this step.
 ```shell
 curl https://dl.fbaipublicfiles.com/mms/tts/{put your language iso code here}.tar.gz --output {put your language iso code here}.tar.gz # Update lang
 mkdir -p data && tar -xzf {put your language iso code here}.tar.gz -C data/ # Update langcode
